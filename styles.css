@@ -33,10 +33,47 @@
     border-radius: 3px;
     padding: 2px;
 }
+.item img{
+    /* max-width: 100%; */
+  /* height: auto; */
+    height: 400px;
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+/**
+* Shop items styles are here
+**/
+.shop{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(4, 23%);
+   margin-left: 15rem;
+   margin-top: 2rem;
+    
+}
 .item{
     display: flex;
     flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    justify-content: space-between; 
+    width: 15rem;
+    margin-right: 1.5rem;
+    border: 1px solid red;
 }
-.image{
-    
+.price-quantity{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.button{
+    display: flex;
+    border: solid black;
+    font-size: 1.5rem;
+    width: 6rem;
+    justify-content: space-around;
+    border-radius: 6px;
 }
